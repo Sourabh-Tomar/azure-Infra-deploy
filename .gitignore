@@ -1,0 +1,23 @@
+# Local Terraform directories
+.terraform/
+
+# Terraform state files (contain sensitive info)
+*.tfstate
+*.tfstate.*
+
+# Backup files
+*.backup
+*.bak
+
+# Local override files (not to be shared)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Lock file (optional — keep it if you want dependency versions fixed)
+.terraform.lock.hcl
